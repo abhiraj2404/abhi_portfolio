@@ -87,8 +87,7 @@ const minorProjects = [
   },
   {
     title: "EthSplit",
-    description:
-      "A decentralized expense-sharing app ensuring transparent and automated management of expenses and funds.",
+    description: "A decentralized expense-sharing blockchain application",
     image: "/projectImages/ethsplit.png",
     techStack: ["Solidity", "Hardhat", "Ethers.js", "React", "Tailwind"],
     deployedUrl: "#",
