@@ -41,7 +41,7 @@ const skillsData = {
 export default function Skills() {
   return (
     <div
-      className="py-20 mx-4 sm:mx-48 px-24 rounded-xl border border-blue-300"
+      className="py-20 mx-4 sm:mx-48 px-5 sm:px-24 rounded-xl border border-blue-300"
       id="skills"
     >
       <div className="max-w-6xl mx-auto">

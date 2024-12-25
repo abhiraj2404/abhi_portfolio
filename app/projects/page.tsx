@@ -109,7 +109,7 @@ export default function ProjectsPage() {
   return (
     <main className="min-h-screen max-w-screen">
       <Spotlight>
-        <div className="pt-40 px-40 pb-20 mx-auto">
+        <div className="pt-40 px-6 md:px-40 pb-20 mx-auto">
           <motion.h1
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -118,7 +118,7 @@ export default function ProjectsPage() {
             My Projects
           </motion.h1>
 
-          <div className="grid md:grid-cols-2 gap-20">
+          <div className="grid md:grid-cols-2 gap-12 md:gap-20">
             {projects.map((project, index) => (
               <motion.div
                 key={index}
@@ -133,7 +133,7 @@ export default function ProjectsPage() {
         </div>
 
         {/* minor projects  */}
-        <div className="mx-auto py-32 md:mx-40 border-t border-zinc-800">
+        <div className="mx-auto px-6 py-32 md:mx-40 border-t border-zinc-800">
           {/* <motion.h1
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -142,7 +142,7 @@ export default function ProjectsPage() {
             Minor Projects
           </motion.h1> */}
 
-          <div className="grid md:grid-cols-3 gap-20">
+          <div className="grid md:grid-cols-3 gap-12 md:gap-20">
             {minorProjects.map((project, index) => (
               <motion.div
                 key={index}
