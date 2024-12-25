@@ -3,16 +3,12 @@ import Image from "next/image";
 
 const experienceData = [
   {
-    title: "Full Stack Developer Intern",
+    title: "Full Stack Developer",
     company: "UBUS",
-    type: "Internship",
+    type: "Co-Founder",
     location: "Remote",
     period: "July 2024 - Current",
-    logo: "https://media.licdn.com/dms/image/v2/D560BAQE47jvNQx2jeg/company-logo_200_200/company-logo_200_200/0/1725617728912/letsubus_logo?e=1743033600&v=beta&t=qGLjMj7EIQTGHOMBLzm_UI3mOGeHg1EobYGHW1MVEec",
-    achievements: [
-      "Handling both the Frontend and Backend of their product website for AI calling agent",
-      "Also contributed to the support chatbot using RAG pipeline and vector stores",
-    ],
+    logo: '/ubus.png',
     skills: ["React", "Context API", "Firebase", "TailwindCSS"],
   },
   {
@@ -21,12 +17,7 @@ const experienceData = [
     type: "Member",
     location: "In Office",
     period: "Sept 2024 - Current",
-    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHRzCjqlI9UZw/company-logo_200_200/company-logo_200_200/0/1648382258678/noidagdg_logo?e=1743033600&v=beta&t=chLt1Mn30oYq73DMnxjRpopvjKUcnYXTjmZB5kq-JV0",
-    achievements: [
-      "Developed NextJS-based documentation and blog site, boosting SEO performance by 37%",
-      "Enhanced web extension for captcha solver product, implementing robust error handling and modifying Javascript events",
-      "Collaborated on backend development with FastApi for company's internal tool",
-    ],
+    logo: '/gdg.png',
     skills: ["NextJs", "MongoDB", "NestJS", "Postgres", "CI/CD", "AWS"],
   },
 ];

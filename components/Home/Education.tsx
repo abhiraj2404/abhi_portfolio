@@ -9,9 +9,7 @@ export default function Education() {
         <div className="flex gap-4 items-center">
           <div className="w-12 h-12 sm:w-16 sm:h-[3.75rem] flex items-center justify-center rounded-full bg-zinc-800 border border-zinc-600 group-hover:border-zinc-400 transition-colors">
             <Image
-              src={
-                "https://img.collegepravesh.com/2015/11/IIIT-Chittoor-Logo.jpg"
-              }
+              src={"/college.png"}
               alt={"IIIT Sri City"}
               width={44}
               height={44}

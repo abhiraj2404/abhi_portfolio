@@ -1,32 +1,6 @@
 "use client";
-import { motion } from "framer-motion";
 import { FaGithub, FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import { Meteors } from "../ui/meteors";
-import { Spotlight } from "../ui/spotlight";
 import { Typewriter } from "../ui/TypeWriter";
-
-const socialLinks = [
-  {
-    icon: <FaGithub size={24} />,
-    href: "https://github.com/yourusername",
-    label: "GitHub",
-  },
-  {
-    icon: <FaTwitter size={24} />,
-    href: "https://twitter.com/yourusername",
-    label: "Twitter",
-  },
-  {
-    icon: <FaLinkedin size={24} />,
-    href: "https://linkedin.com/in/yourusername",
-    label: "LinkedIn",
-  },
-  {
-    icon: <FaEnvelope size={24} />,
-    href: "mailto:your.email@example.com",
-    label: "Email",
-  },
-];
 
 export default function Hero() {
   return (
@@ -52,7 +26,7 @@ export default function Hero() {
         <div className="flex items-center justify-center ">
           <img
             className="rounded-full w-3/4 h-auto object-contain"
-            src="https://i.pinimg.com/736x/d2/f2/08/d2f2086efdf6950a384bbf40c152992f.jpg"
+            src="/profile.png"
             alt="profile_pic"
           />
         </div>

@@ -10,9 +10,12 @@ export default function Navigation() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               <div className="flex-shrink-0">
-                <p className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
+                <a
+                  className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500"
+                  href="/"
+                >
                   PORTFOLIO
-                </p>
+                </a>
               </div>
               <div className="hidden sm:flex sm:items-center sm:space-x-8">
                 <NavLink href="/">About</NavLink>

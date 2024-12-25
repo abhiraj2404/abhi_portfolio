@@ -24,6 +24,18 @@ const skillsData = {
     { name: "MongoDB", color: "#47A248" },
     { name: "Firebase", color: "#FFCA28" },
   ],
+  aiml: [
+    { name: "Langchain", color: "#FFFFFF" },
+    { name: "Ollama", color: "#61DAFB" },
+  ],
+  blockchain: [
+    { name: "Solidity", color: "#7928CA" },
+    { name: "Web3.js", color: "#FFCA28" },
+    { name: "Hardhat", color: "#FF7846" },
+    { name: "Solana/web3.js", color: "#3178C6" },
+    { name: "Rust", color: "#336791" },
+    { name: "Anchor", color: "#61DAFB" },
+  ],
 };
 
 export default function Skills() {
@@ -54,6 +66,16 @@ export default function Skills() {
           </SkillCategory>
           <SkillCategory title="Database & Storage">
             {skillsData.database.map((skill, index) => (
+              <SkillItem key={index} {...skill} />
+            ))}
+          </SkillCategory>
+          <SkillCategory title="AI & ML">
+            {skillsData.aiml.map((skill, index) => (
+              <SkillItem key={index} {...skill} />
+            ))}
+          </SkillCategory>
+          <SkillCategory title="Blockchain & Web3">
+            {skillsData.blockchain.map((skill, index) => (
               <SkillItem key={index} {...skill} />
             ))}
           </SkillCategory>
