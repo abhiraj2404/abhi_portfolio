@@ -8,7 +8,7 @@ const experienceData = [
     type: "Co-Founder",
     location: "Remote",
     period: "July 2024 - Current",
-    logo: '/ubus.png',
+    logo: "/ubus.png",
     skills: ["React", "Context API", "Firebase", "TailwindCSS"],
   },
   {
@@ -17,8 +17,8 @@ const experienceData = [
     type: "Member",
     location: "In Office",
     period: "Sept 2024 - Current",
-    logo: '/gdg.png',
-    skills: ["NextJs", "MongoDB", "NestJS", "Postgres", "CI/CD", "AWS"],
+    logo: "/gdg.png",
+    skills: ["NextJs", "MongoDB", "NestJS", "Postgres", "Docker"],
   },
 ];
 

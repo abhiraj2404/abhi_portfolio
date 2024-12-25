@@ -5,11 +5,11 @@ export function Typewriter() {
   const words = [
     {
       text: "Full-Stack",
-      className: "text-white text-3xl",
+      className: "text-white text-2xl sm:text-3xl ",
     },
     {
       text: "Web Developer",
-      className: "text-blue-500 dark:text-blue-500 text-3xl",
+      className: "text-blue-500 dark:text-blue-500 text-2xl sm:text-3xl",
     },
   ];
   return (
