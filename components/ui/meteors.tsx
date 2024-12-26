@@ -1,17 +1,19 @@
 "use client";
+
 import { cn } from "@/lib/utils";
+import React from "react";
 
 export const Meteors = ({
-  number = 20,
+  number,
   className,
 }: {
   number?: number;
   className?: string;
 }) => {
-  const meteors = new Array(number).fill(true);
+  const meteors = new Array(number || 20).fill(true);
   return (
     <>
-      {meteors.map((_, idx) => (
+      {meteors.map((el, idx) => (
         <span
           key={"meteor" + idx}
           className={cn(
@@ -25,7 +27,7 @@ export const Meteors = ({
             animationDelay: Math.random() * (0.8 - 0.2) + 0.2 + "s",
             animationDuration: Math.floor(Math.random() * (10 - 2) + 2) + "s",
           }}
-        />
+        ></span>
       ))}
     </>
   );
