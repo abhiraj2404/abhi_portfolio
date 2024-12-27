@@ -21,9 +21,9 @@ export function Typewriter() {
             Download CV
           </button>
         </Link>
-        <Link href="#contact">
+        <Link href="/projects">
           <button className="w-40 h-10 rounded-xl bg-white text-black hover:bg-gray-400 border border-black  text-sm">
-            Hire Me
+            Projects
           </button>
         </Link>
       </div>

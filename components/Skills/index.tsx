@@ -41,7 +41,7 @@ const skillsData = {
 export default function Skills() {
   return (
     <div
-      className="py-20 mx-4 sm:mx-48 px-5 sm:px-24 rounded-xl border border-blue-300"
+      className="py-20 mx-4 md:mx-48 px-5 md:px-24 rounded-xl border border-blue-300"
       id="skills"
     >
       <div className="max-w-6xl mx-auto">
@@ -53,7 +53,7 @@ export default function Skills() {
           Technical Skills
         </motion.h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-1 gap-x-20 gap-y-10">
+        <div className="grid grid-cols-1 gap-x-20 gap-y-10">
           <SkillCategory title="Frontend Development">
             {skillsData.frontend.map((skill, index) => (
               <SkillItem key={index} {...skill} />
