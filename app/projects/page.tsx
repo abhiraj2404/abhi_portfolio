@@ -18,7 +18,14 @@ const projects = [
     description:
       "A twitter bot and ai agent to send crpto to anyone on X with just their username.",
     image: "/projectImages/sendX.jpg",
-    techStack: ["Next.js", "TypeScript", "Node.js", "Langchain", "Ollama"],
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Langchain",
+      "Ollama",
+      "Cron",
+    ],
     deployedUrl: "https://sendx-pi.vercel.app",
     githubUrl: "https://github.com/abhiraj2404/SendX_frontend",
   },
