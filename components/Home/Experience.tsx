@@ -4,6 +4,15 @@ import Image from "next/image";
 
 const experienceData = [
   {
+    title: "Frontend Developer",
+    company: "Okto (by COINDCX)",
+    type: "Intern",
+    location: "Remote",
+    period: "Feb 2025 - Current",
+    logo: "/okto.jpeg",
+    skills: ["NextJs", "Typescript", "React", "Web3"],
+  },
+  {
     title: "Full Stack Developer",
     company: "UBUS",
     type: "Co-Founder",
