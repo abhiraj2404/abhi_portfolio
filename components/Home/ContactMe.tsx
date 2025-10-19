@@ -6,6 +6,7 @@ import {
   IconBrandGithub,
   IconBrandLinkedin,
   IconBrandTwitter,
+  IconBrandX,
   IconMail,
 } from "@tabler/icons-react";
 
@@ -31,7 +32,7 @@ export default function SignupFormDemo() {
             type="button"
             target="_blank"
           >
-            <IconBrandTwitter className="h-5 w-5" />
+            <IconBrandX className="h-5 w-5" />
             <span>Twitter</span>
 
             <BottomGradient />

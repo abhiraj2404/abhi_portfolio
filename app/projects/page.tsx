@@ -5,6 +5,30 @@ import { Spotlight } from "@/components/ui/spotlight";
 
 const projects = [
   {
+    title: "Arena",
+    description:
+      "A decentralized gaming platform built on Solana where players can compete in classic games and earn SOL rewards.",
+    image: "/projectImages/minigameArena.png",
+    techStack: ["NextJS", "Solana/web3.js", "MongoDB", "Rust", "Anchor"],
+    deployedUrl: "https://arena.abhiraj0x.me",
+    githubUrl: "https://github.com/abhiraj2404/minigame-arena",
+  },
+  {
+    title: "EventChain",
+    description:
+      "Host Events on the Blockchain, manage registrations, and reward attendees with unique NFTs.",
+    image: "/projectImages/eventChain.png",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Pinata",
+      "Supabase",
+      "Thirdweb",
+    ],
+    deployedUrl: "https://web3ssh.abhiraj0x.me",
+    githubUrl: "https://github.com/abhiraj2404/EventChain",
+  },
+  {
     title: "Solana Launchpad",
     description:
       "A Token Launchpad for creating and managing your own token on Solana.",

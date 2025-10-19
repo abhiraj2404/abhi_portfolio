@@ -14,7 +14,7 @@ export default function Navigation() {
                   className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500"
                   href="/"
                 >
-                  PORTFOLIO
+                  ABHIRAJ2404
                 </a>
               </div>
               <div className="flex sm:items-center sm:space-x-8">

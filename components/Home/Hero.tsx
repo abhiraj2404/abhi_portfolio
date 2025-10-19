@@ -3,29 +3,29 @@
 import Link from "next/link";
 import { Typewriter } from "../ui/TypeWriter";
 import { Meteors } from "../ui/meteors";
-import { Github, Mail, Twitter, Linkedin } from "lucide-react";
+import { IconBrandGithub, IconBrandLinkedin, IconBrandX, IconMail } from "@tabler/icons-react";
 
 const socials = [
   {
-    icon: <Github size={20} />,
+    icon: <IconBrandGithub size={20} />,
     href: "https://github.com/abhiraj2404",
     label: "Github",
     handle: "abhiraj2404",
   },
   {
-    icon: <Linkedin size={20} />,
+    icon: <IconBrandLinkedin size={20} />,
     href: "https://www.linkedin.com/in/abhiraj2404",
     label: "LinkedIn",
     handle: "abhiraj2404",
   },
   {
-    icon: <Twitter size={20} />,
+    icon: <IconBrandX size={20} />,
     href: "https://x.com/abhiraj_2404",
     label: "Twitter",
     handle: "@abhiraj_2404",
   },
   {
-    icon: <Mail size={20} />,
+    icon: <IconMail size={20} />,
     href: "mailto:chauhanabhiraj06@gmail.com",
     label: "Email",
     handle: "chauhanabhiraj06@gmail.com",
@@ -58,9 +58,9 @@ export default function Hero() {
                 key={i}
                 target="_blank"
                 className="group relative p-3 text-zinc-400 bg-zinc-800/30 rounded-xl 
-             transition-all duration-300 ease-in backdrop-blur-sm
+             transition-all duration-150 ease-in backdrop-blur-sm
              hover:text-zinc-100 hover:bg-blue-500 
-             transform hover:-translate-y-3 hover:scale-110
+             transform hover:-translate-y-2 hover:scale-105
              hover:shadow-lg hover:shadow-blue-500/25"
                 title={s.label}
               >
@@ -73,7 +73,7 @@ export default function Hero() {
         <div className="flex items-center w-1/2 sm:w-3/4 h-auto object-contain justify-center ">
           <img
             className="rounded-full "
-            src="/profile1.png"
+            src="/animated-profile.png"
             alt="profile_pic"
           />
         </div>

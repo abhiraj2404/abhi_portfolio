@@ -1,7 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Twitter } from "lucide-react";
+import { ExternalLink, } from "lucide-react";
 import Link from "next/link";
+import { IconBrandGithub, IconBrandX } from "@tabler/icons-react";
 
 interface ProjectCardProps {
   title: string;
@@ -69,7 +70,7 @@ export default function ProjectCard({
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-sm md:text-md p-2 rounded-lg bg-white/5 hover:bg-white/10 text-white border border-white/10 transition-colors"
           >
-            <Github className="w-4 h-4" />
+            <IconBrandGithub className="w-4 h-4" />
             GitHub
           </motion.a>
           {title == "SendX" && (
@@ -81,7 +82,7 @@ export default function ProjectCard({
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-sm md:text-md p-2 rounded-lg bg-white/5 hover:bg-white/10 text-white border border-white/10 transition-colors"
             >
-              <Twitter className="w-4 h-4" />
+              <IconBrandX className="w-4 h-4" />
               Twitter
             </motion.a>
           )}
