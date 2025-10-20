@@ -7,6 +7,7 @@ import ContactMe from "@/components/Home/ContactMe";
 import { Spotlight } from "@/components/ui/spotlight";
 import Experience from "@/components/Home/Experience";
 import Education from "@/components/Home/Education";
+// import Achievements from "@/components/Home/Achievements";
 
 export default function Home() {
   return (
