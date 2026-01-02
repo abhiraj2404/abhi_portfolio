@@ -5,7 +5,6 @@
       "description": "A prototype for L2-style streaming payments systems using Coinbase x402. This system real-time micro-payments with batched settlement to reduce gas/fee overhead.",
       "image": "/projectImages/kiwi.png",
       "techStack": ["x402", "Prisma", "RabbitMQ", "Redis", "Docker", "k6"],
-      "deployedUrl": "https://github.com/abhiraj2404/Kiwi",
       "githubUrl": "https://github.com/abhiraj2404/Kiwi"
     },
     {
