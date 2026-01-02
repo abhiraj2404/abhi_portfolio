@@ -1,0 +1,252 @@
+{
+  "projectsData": [
+    {
+      "title": "Kiwi",
+      "description": "A prototype for L2-style streaming payments systems using Coinbase x402. This system real-time micro-payments with batched settlement to reduce gas/fee overhead.",
+      "image": "/projectImages/kiwi.png",
+      "techStack": ["x402", "Prisma", "RabbitMQ", "Redis", "Docker", "k6"],
+      "deployedUrl": "https://github.com/abhiraj2404/Kiwi",
+      "githubUrl": "https://github.com/abhiraj2404/Kiwi"
+    },
+    {
+      "title": "Hostelia",
+      "description": "Scalable hostel management orchestration system featuring hierarchical access control, asynchronous event-driven workflows, and distributed entity lifecycle management.",
+      "image": "/projectImages/hostelia.png",
+      "techStack": ["React", "Typescript", "MongoDB", "Winston", "Zod"],
+      "deployedUrl": "https://hostelia.abhiraj0x.me",
+      "githubUrl": "https://github.com/abhiraj2404/Hostelia_2.0"
+    },
+    {
+      "title": "Arena",
+      "description": "A decentralized gaming platform built on Solana where players can compete in classic games and earn SOL rewards.",
+      "image": "/projectImages/minigameArena.png",
+      "techStack": ["NextJS", "Solana/web3.js", "MongoDB", "Rust", "Anchor"],
+      "deployedUrl": "https://arena.abhiraj0x.me",
+      "githubUrl": "https://github.com/abhiraj2404/minigame-arena"
+    },
+    {
+      "title": "EventChain",
+      "description": "Host Events on the Blockchain, manage registrations, and reward attendees with unique NFTs.",
+      "image": "/projectImages/eventChain.png",
+      "techStack": ["Next.js", "TypeScript", "Pinata", "Supabase", "Thirdweb"],
+      "deployedUrl": "https://web3ssh.abhiraj0x.me",
+      "githubUrl": "https://github.com/abhiraj2404/EventChain"
+    },
+    {
+      "title": "Solana Launchpad",
+      "description": "A Token Launchpad for creating and managing your own token on Solana.",
+      "image": "/projectImages/solanalaunchpad.png",
+      "techStack": ["NextJS", "Solana/web3.js", "MongoDB", "Pinata", "IPFS"],
+      "deployedUrl": "https://solanatokenlaunchpad.vercel.app",
+      "githubUrl": "https://github.com/abhiraj2404/Token_launchpad"
+    },
+    {
+      "title": "SendX",
+      "description": "A twitter bot and ai agent to send crpto to anyone on X with just their username.",
+      "image": "/projectImages/sendX.jpg",
+      "techStack": [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Langchain",
+        "Ollama",
+        "Cron"
+      ],
+      "deployedUrl": "https://sendx-pi.vercel.app",
+      "githubUrl": "https://github.com/abhiraj2404/SendX_frontend"
+    },
+    {
+      "title": "Aurelia",
+      "description": "Mint your favourite photos as unique NFTs and keep them forever on the blockchain, everything cost free.",
+      "image": "/projectImages/aurelia.png",
+      "techStack": ["NextJS", "Solidity", "Pinata", "Thirdweb"],
+      "deployedUrl": "https://aurelia-ten.vercel.app",
+      "githubUrl": "https://github.com/abhiraj2404/Aurelia"
+    },
+    {
+      "title": "Gamejam",
+      "description": "A single page 3D website designed and developed for the annual Global gamejam.",
+      "image": "/projectImages/gamejam.png",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Three.js",
+        "Tailwind",
+        "Cloudflare"
+      ],
+      "deployedUrl": "https://gamejam2024.pages.dev",
+      "githubUrl": "https://github.com/abhiraj2404/gamejam_2024"
+    },
+    {
+      "title": "UBUS",
+      "description": "A full-stack student marketplace where students can buy, sell, rent and donate essentials.",
+      "image": "/projectImages/ubus.png",
+      "techStack": [
+        "React",
+        "JavaScript",
+        "Firebase",
+        "Tailwind",
+        "Cloudinary"
+      ],
+      "deployedUrl": "https://ubus.tech",
+      "githubUrl": "https://github.com/abhiraj2404/UB_US"
+    },
+    {
+      "title": "Portfolio",
+      "description": "A sleek and modern looking portfolio website.",
+      "image": "/projectImages/portfolio.png",
+      "techStack": ["NextJS", "TypeScript", "AceternityUI", "MagicUI"],
+      "deployedUrl": "https://chauhanabhiraj.vercel.app",
+      "githubUrl": "https://github.com/abhiraj2404/abhi_portfolio"
+    }
+  ],
+  "minorProjectsData": [
+    {
+      "title": "Clipify",
+      "description": "An online clipboard for storing messages, passwords and images",
+      "image": "/projectImages/clipify.png",
+      "techStack": ["React", "Firebase", "Tailwind", "Firebase storage"],
+      "deployedUrl": "https://clipify-rho.vercel.app",
+      "githubUrl": "https://github.com/abhiraj2404/Clipify"
+    },
+    {
+      "title": "DeepChat",
+      "description": "A real-time chat application with session based storage.",
+      "image": "/projectImages/deepchatsmall.png",
+      "techStack": ["Node.js", "Socket.io", "React", "Flowbite"],
+      "deployedUrl": "https://real-time-chat-app-client-omega.vercel.app",
+      "githubUrl": "https://github.com/abhiraj2404/DeepChat"
+    },
+    {
+      "title": "Chakravyuh",
+      "description": "A digital portal for hosting technical treasure hunts.",
+      "image": "/projectImages/chakravyuh.png",
+      "techStack": ["NextJS", "TypeScript", "NestJS", "Swagger", "MongoDB"],
+      "deployedUrl": "https://admin.deploy.chakravyuh.live",
+      "githubUrl": "https://github.com/abhiraj2404/chakravyuh"
+    },
+    {
+      "title": "EthSplit",
+      "description": "A decentralized expense-sharing blockchain application",
+      "image": "/projectImages/ethsplit.png",
+      "techStack": ["Solidity", "Hardhat", "Ethers.js", "React", "Tailwind"],
+      "deployedUrl": "#",
+      "githubUrl": "https://github.com/abhiraj2404/Ethsplit"
+    },
+    {
+      "title": "Reminders_xyz",
+      "description": "A recurring reminders client CLI built using TS and cron jobs.",
+      "image": "/projectImages/reminders_xyz.png",
+      "techStack": ["Node.js", "TypeScript", "Cron", "Enquirer", "Nodemailer"],
+      "deployedUrl": "https://www.npmjs.com/package/reminders-xyz",
+      "githubUrl": "https://github.com/abhiraj2404/reminders-xyz"
+    }
+  ],
+  "experienceData": [
+    {
+      "title": "Frontend Developer",
+      "company": "Okto (by COINDCX)",
+      "type": "Intern",
+      "location": "Remote",
+      "period": "Feb 2025 - July 2025",
+      "logo": "/okto.jpeg",
+      "url": "https://okto.tech/",
+      "skills": [
+        "NextJs",
+        "Typescript",
+        "React",
+        "Web3",
+        "ElizaOS",
+        "React Native"
+      ]
+    },
+    {
+      "title": "Founding Engineer",
+      "company": "UBUS",
+      "type": "Co-Founder",
+      "location": "Remote",
+      "period": "July 2024 - Current",
+      "logo": "/ubus.png",
+      "url": "https://letsubus.web.app/",
+      "skills": ["React", "Context API", "Firebase", "TailwindCSS"]
+    },
+    {
+      "title": "Backend Core Member",
+      "company": "GDSC IIIT Sri City",
+      "type": "Member",
+      "location": "In Office",
+      "period": "Sept 2024 - June 2025",
+      "logo": "/gdg.png",
+      "url": "https://www.linkedin.com/company/gdg-iiits",
+      "skills": ["NextJs", "MongoDB", "NestJS", "Postgres", "Docker"]
+    }
+  ],
+  "achievementsData": [
+    {
+      "title": "Winner - Hackathon",
+      "event": "TechFest 2024",
+      "type": "1st Place",
+      "date": "March 2024",
+      "description": "Built a full-stack web application using React and Node.js",
+      "skills": ["React", "Node.js", "MongoDB", "TailwindCSS"]
+    },
+    {
+      "title": "Google Developer Student Club",
+      "event": "GDSC IIIT Sri City",
+      "type": "Core Member",
+      "date": "Sept 2024 - Present",
+      "description": "Leading backend development initiatives and organizing tech events",
+      "skills": ["Leadership", "Backend Development", "Event Management"]
+    },
+    {
+      "title": "Open Source Contributor",
+      "event": "GitHub",
+      "type": "Active Contributor",
+      "date": "2023 - Present",
+      "description": "Contributing to various open source projects and maintaining repositories",
+      "skills": ["Git", "Open Source", "Community Building"]
+    },
+    {
+      "title": "Coding Competition",
+      "event": "CodeChef",
+      "type": "Top 10%",
+      "date": "December 2023",
+      "description": "Achieved top 10% ranking in competitive programming contest",
+      "skills": ["Algorithms", "Data Structures", "Problem Solving"]
+    }
+  ],
+  "skillsData": {
+    "frontend": [
+      { "name": "React.js", "color": "#61DAFB" },
+      { "name": "Tailwind", "color": "#61DAFB" },
+      { "name": "Next.js", "color": "#7928CA" },
+      { "name": "Redux", "color": "#FF7846" },
+      { "name": "TypeScript", "color": "#3178C6" },
+      { "name": "JavaScript", "color": "#F7DF1E" }
+    ],
+    "backend": [
+      { "name": "Node.js", "color": "#339933" },
+      { "name": "Express.js", "color": "#FFFFFF" },
+      { "name": "FastAPI", "color": "#009688" },
+      { "name": "Prisma", "color": "#2D3748" },
+      { "name": "Python", "color": "#3776AB" }
+    ],
+    "database": [
+      { "name": "PostgreSQL", "color": "#336791" },
+      { "name": "MongoDB", "color": "#47A248" },
+      { "name": "Firebase", "color": "#FFCA28" }
+    ],
+    "aiml": [
+      { "name": "Langchain", "color": "#FFFFFF" },
+      { "name": "Ollama", "color": "#61DAFB" }
+    ],
+    "blockchain": [
+      { "name": "Solidity", "color": "#7928CA" },
+      { "name": "Web3.js", "color": "#FFCA28" },
+      { "name": "Hardhat", "color": "#FF7846" },
+      { "name": "Solana/web3.js", "color": "#3178C6" },
+      { "name": "Rust", "color": "#336791" },
+      { "name": "Anchor", "color": "#61DAFB" }
+    ]
+  }
+}
