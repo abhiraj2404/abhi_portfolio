@@ -16,7 +16,7 @@ export function Typewriter() {
     <div className="flex flex-col items-center justify-center h-[10rem]">
       <TypewriterEffectSmooth words={words} className="text-white" />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-        <Link href="https://firebasestorage.googleapis.com/v0/b/clipify-back.appspot.com/o/clips%2FWUw1yoHwXTnJKzzIVAhw%2FAbhiraj_resume_frontend.pdf?alt=media&token=2a573a41-15d7-44ba-bbaa-539c2f51d27b">
+        <Link href="https://drive.google.com/file/d/10rowI5--E_BunJQcAcID5YndwCGdEG2B/view?usp=sharing">
           <button className="w-40 h-10 rounded-xl bg-blue-500 hover:bg-blue-900 dark:border-white border-white text-white text-sm">
             Download CV
           </button>
