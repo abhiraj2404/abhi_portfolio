@@ -12,7 +12,7 @@
       "description": "Scalable hostel management orchestration system featuring hierarchical access control, asynchronous event-driven workflows, and distributed entity lifecycle management.",
       "image": "/projectImages/hostelia.png",
       "techStack": ["React", "Typescript", "MongoDB", "Winston", "Zod"],
-      "deployedUrl": "https://hostelia.abhiraj0x.me",
+      "deployedUrl": "https://hostelia.0xabhiraj.dev",
       "githubUrl": "https://github.com/abhiraj2404/Hostelia_2.0"
     },
     {
@@ -20,7 +20,7 @@
       "description": "A decentralized gaming platform built on Solana where players can compete in classic games and earn SOL rewards.",
       "image": "/projectImages/minigameArena.png",
       "techStack": ["NextJS", "Solana/web3.js", "MongoDB", "Rust", "Anchor"],
-      "deployedUrl": "https://arena.abhiraj0x.me",
+      "deployedUrl": "https://arena.0xabhiraj.dev",
       "githubUrl": "https://github.com/abhiraj2404/minigame-arena"
     },
     {
@@ -28,7 +28,7 @@
       "description": "Host Events on the Blockchain, manage registrations, and reward attendees with unique NFTs.",
       "image": "/projectImages/eventChain.png",
       "techStack": ["Next.js", "TypeScript", "Pinata", "Supabase", "Thirdweb"],
-      "deployedUrl": "https://web3ssh.abhiraj0x.me",
+      "deployedUrl": "https://web3ssh.0xabhiraj.dev",
       "githubUrl": "https://github.com/abhiraj2404/EventChain"
     },
     {
@@ -36,7 +36,7 @@
       "description": "A Token Launchpad for creating and managing your own token on Solana.",
       "image": "/projectImages/solanalaunchpad.png",
       "techStack": ["NextJS", "Solana/web3.js", "MongoDB", "Pinata", "IPFS"],
-      "deployedUrl": "https://solanatokenlaunchpad.vercel.app",
+      "deployedUrl": "https://orbital.0xabhiraj.dev",
       "githubUrl": "https://github.com/abhiraj2404/Token_launchpad"
     },
     {
@@ -95,7 +95,7 @@
       "description": "A sleek and modern looking portfolio website.",
       "image": "/projectImages/portfolio.png",
       "techStack": ["NextJS", "TypeScript", "AceternityUI", "MagicUI"],
-      "deployedUrl": "https://chauhanabhiraj.vercel.app",
+      "deployedUrl": "https://www.0xabhiraj.dev",
       "githubUrl": "https://github.com/abhiraj2404/abhi_portfolio"
     }
   ],
@@ -105,7 +105,7 @@
       "description": "An online clipboard for storing messages, passwords and images",
       "image": "/projectImages/clipify.png",
       "techStack": ["React", "Firebase", "Tailwind", "Firebase storage"],
-      "deployedUrl": "https://clipify-rho.vercel.app",
+      "deployedUrl": "https://clipify.0xabhiraj.dev",
       "githubUrl": "https://github.com/abhiraj2404/Clipify"
     },
     {
