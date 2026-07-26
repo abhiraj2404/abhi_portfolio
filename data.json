@@ -143,7 +143,23 @@
   ],
   "experienceData": [
     {
-      "title": "Frontend Developer",
+      "title": "SDE Intern",
+      "company": "Harness",
+      "type": "Intern",
+      "location": "On-Site",
+      "period": "June 2026 - Current",
+      "logo": "/harness.svg",
+      "url": "https://harness.io",
+      "skills": [
+        "kubernetes",
+        "locust",
+        "GCP",
+        "lens",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Software Developer Intern",
       "company": "Okto (by COINDCX)",
       "type": "Intern",
       "location": "Remote",
